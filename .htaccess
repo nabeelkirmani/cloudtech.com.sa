@@ -1,0 +1,7 @@
+RewriteEngine on RewriteCond %{HTTPS} off RewriteRule ^(.*)$
+https://%{HTTP_HOST}/$1 [R=301,L]
+
+<IfModule mod_rewrite.c>
+  RewriteCond %{HTTP_HOST} ^cloudtechksa\.com$ [NC] RewriteRule (.*)
+  https://cloudtech.com.sa/$1 [R=301,L]
+</IfModule>
