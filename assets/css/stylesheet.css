@@ -655,7 +655,10 @@ p {
 #bottom-footer {
   background-color: #131313;
   color: #fff;
-  padding: 2px;
+  padding-top: 10px;
+  padding-left: 2px;
+  padding-bottom: 20px;
+  padding-right: 2px;
 }
 
 #bottom-footer img {
