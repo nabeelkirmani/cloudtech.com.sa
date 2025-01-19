@@ -159,6 +159,7 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
+  appearance: button; /* for compatibility */
   cursor: pointer;
 }
 
@@ -192,6 +193,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 input[type="search"] {
   -webkit-appearance: textfield;
+  appearance: textfield; /* for compatibility */
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -8116,7 +8118,7 @@ button.close {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000\9;
+  background-color: #0009;
   background-color: rgb(255 255 255 / 96%);
   border: 1px solid #fff;
   border-radius: 10px;

@@ -256,6 +256,7 @@ p {
 #serv-sec .services-small-item:hover .icon i {
   background: -webkit-linear-gradient(#fff, #fff);
   -webkit-background-clip: text;
+  background-clip: text; /* for compatibility */
   -webkit-text-fill-color: transparent;
 }
 
@@ -296,6 +297,7 @@ p {
   font-size: 67px;
   background: linear-gradient(133deg, #2471de 26%, #8c8c8c 100%);
   -webkit-background-clip: text;
+  background-clip: text; /* for compatibility */
   -webkit-text-fill-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -352,6 +354,7 @@ p {
 #serv-sec .services-small-item.active .icon i {
   background: -webkit-linear-gradient(#fff, #fff);
   -webkit-background-clip: text;
+  background-clip: text; /* for compatibility */
   -webkit-text-fill-color: transparent;
 }
 
@@ -486,12 +489,14 @@ p {
   -webkit-transition: all 0.4s ease-in-out;
   background: linear-gradient(133deg, #2471de 26%, #8c8c8c 100%);
   -webkit-background-clip: text;
+  background-clip: text; /* for compatibility */
   -webkit-text-fill-color: transparent;
 }
 
 #industries-sec .serv-section-2:hover i {
   background: linear-gradient(133deg, #ffffff 26%, #ffffff 100%);
   -webkit-background-clip: text;
+  background-clip: text; /* for compatibility */
   -webkit-text-fill-color: transparent;
 }
 
@@ -1186,6 +1191,7 @@ p {
     height: auto;
   }
   #inner-servpage .service-box {
+    background-clip: text; /* for compatibility */
     /*height: auto;*/
   }
 }
